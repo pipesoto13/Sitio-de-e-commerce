@@ -96,9 +96,88 @@
                 <div class="mt-auto">
                   <a href="#" class="btn btn-primary btn-sm">$229 <i class="fas fa-shopping-cart fa-sm"></i></a>
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#exampleModalLong">
+                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#exampleModal">
                     Detalles
                   </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Hipster Ultimate</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col">
+                              <div class="alert alert-primary" role="alert">
+                                <a href="#" class="alert-link"><i class="fas fa-exclamation-circle"></i></a> Este producto está agotado 
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mb-4">
+                            <div class="col-6">
+                              <img src="img/camiseta-1.jpg" class="img-thumbnail float-left" alt="camiseta hipsters">
+                            </div>
+                            <div class="col-6">
+                              <div class="row">
+                                <p>Precio: <strong>299</strong></p>
+                              </div>
+                              <div class="row">
+                                <p>Calificación: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                              </div>
+                              <div class="row mb-3">
+                                <span class="badge badge-warning">Hipster</span>
+                                <span class="badge badge-secondary ml-1">Deportiva</span>
+                              </div>
+                              <div class="row text-primary">
+                                <p><i class="fas fa-heart"></i> Agregar a los deseos</p>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <nav class="mb-3">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Descripcion</a>
+                                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Comentarios</a>
+                                </div>
+                              </nav>
+                              <div class="tab-content mx-3" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime explicabo corporis eligendi quasi atque, soluta voluptas commodi consectetur fugit est libero qui non modi error praesentium quam vel aspernatur?</div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                  <div class="row mb-2">
+                                    <div class="list-group w-100">
+                                      <a href="#" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                          <h5 class="mb-1">Germán Escobar comentó</h5>
+                                          <small>hace 2 días</small>
+                                        </div>
+                                        <p class="mb-1">Esta camiseta está increíble, la quiero!</p>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <form class = "w-100">
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </form>  
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -196,7 +275,9 @@
             </div>
           </div>
 
-      </div>
+        </div>
+
+
 
       </div>
     </div>
